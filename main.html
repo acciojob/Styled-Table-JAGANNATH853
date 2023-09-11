@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<style>
+	#my-heading {
+	background-color: blue;
+	}
+		</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +13,79 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- add table here -->
+    <table border="1">
+		<caption>CBSE result sheet</caption>
+		<thead id="my-heading">
+			<tr>
+				<th>SUB CODE</th>
+				<th>SUB NAME</th>
+				<th>THEORY</th>
+				<th>PRACTICAL</th>
+				<th>TOTAL</th>
+				<th>POSITIONAL GRADE</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>002</td>
+				<td>HINDI COURSE-A</td>
+				<td>066</td>
+				<td>020</td>
+				<td>86</td>
+				<td>A2</td>
+			</tr>
+			<tr>
+				<td>184</td>
+				<td>ENGLISH LANG & LIT.</td>
+				<td>033</td>
+				<td>018</td>
+				<td>051</td>
+				<td>D1</td>
+			</tr>
+			<tr>
+				<td>241</td>
+				<td>MATHEMATICS BASIC</td>
+				<td>020</td>
+				<td>018</td>
+				<td>038</td>
+				<td>D1</td>
+			</tr>
+			<tr>
+				<td>086</td>
+				<td>SCIENCE</td>
+				<td>023</td>
+				<td>019</td>
+				<td>042</td>
+				<td>C2</td>
+			</tr>
+			<tr>
+				<td>087</td>
+				<td>SOCIAL SCIENCE</td>
+				<td>069</td>
+				<td>019</td>
+				<td>088</td>
+				<td>B1</td>
+			</tr>
+			<tr>
+				<td colspan="6">Additional Subject</td>
+			</tr>
+			<tr>
+				<td>122</td>
+				<td>SANSKRIT</td>
+				<td>044</td>
+				<td>018</td>
+				<td>062</td>
+				<td>C2</td>
+			</tr>
+			</tbody>
+		<tfoot id="my-heading">
+			<tr>
+				<td></td>
+				<td colspan="5">Result: PASS</td>
+			</tr>
+		</tfoot>
+		
+	</table>
 
         
 </body>
